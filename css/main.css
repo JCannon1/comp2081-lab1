@@ -101,7 +101,9 @@ html {
     background-color: #FFFFFF;
     font-family: 'IM Fell English', serif;
 }
-
+h1 {
+    font-size: 2em;
+}
 
 
 

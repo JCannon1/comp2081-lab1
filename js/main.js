@@ -1,11 +1,9 @@
-$(document).ready(function() {
 
-    var toggleButton = $( "<p><button>Show/Hide Contents</button></p>");
-
-    toggleButton.appendTo( "main p:first-child" );
-
-    $("button").click(function(event) {
-
-    $("main > section:nth-of-type(1)").toggleClass("visuallyhidden");
-    })
-});
+function myFunction() {
+    var x = document.getElementById('button');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
